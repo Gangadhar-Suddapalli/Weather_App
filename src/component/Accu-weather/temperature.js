@@ -5,7 +5,7 @@ import Weathercard from './weathercard';
 import './style.css'
 
 const Temperature = () => {
-    const [searchValue, setSearchValue] = useState("delhi");
+    const [searchValue, setSearchValue] = useState("new york");
     const [tempInfo, setTempInfo] = useState({}); //{} empty object rakh diye by default
   // we want first time, only first time by default delhi ka data mile without tapping on search button, after page refresh
   const getWeatherInfo= async()=>{
